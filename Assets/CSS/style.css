@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #31373d;
+    height: 8vh;
+
+}
+
+@media only screen and (min-width:400px){
+    header{
+        display:flex
+
+    }
+}
+
+.logo,
+.nav-list {
+    border:1px solid hotpink;
+    height: 100%;
+    
+
+}
+@media only screen and (min-width:600px){
+    .logo,
+    .nav-list{
+        height: 85px;
+        width: 1000px;
+    }
+.midbacksplash img {
+    background-image: image();
+   border: 5px solid coral;
+   position: relative;
+    height: 170px;
+    width: 1700px;
+}
+
+#backsplashoverlay {
+    position:absolute;
+    top: 80px;
+    left: 850px;
+    height: 40px;
+    width: 25%;
+    background-color: #31373d; 
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 18pt;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+#backsplashoverlay {
+    display:flex;
+    flex-flow: row wrap;
+    border:5px solid orchid;
+}
+
+.logo{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.logo img{
+    width: 75%;
+    height: auto;
+   
+}
+
+.nav-list{
+    display:flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    font-size: 29px;
+    padding: 5px;
+    margin-right: 5px;
+    font-family: Copperplate, Papyrus, fantasy;
+   
+}
+ul{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  
+li{
+    padding: 0px 20px;
+    border: 1px solid rgb(12, 12, 12);
+    color: #83a1b9;
+
+}
+a{
+    color:#83a1b9;
+    text-decoration: none;
+}
+
+.contactme{
+    color:black
+}
+.aboutme{
+    display:flex;
+    align-items: inherit;
+    position: relative;
+    Border:5px solid red;
+
+}
