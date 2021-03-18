@@ -30,12 +30,14 @@ header {
         height: 70px;
         width: 1000px;
     }
+}
 
 .midbacksplash{
    border: 5px solid coral;
+   background-image: url(./Images/Backgroundphoto.png);
    display: flex;
     height: 170px;
-    width: 1700px;
+    width: auto;
     }
 
 .logo{
@@ -77,32 +79,66 @@ a{
     text-decoration: none;
 }
 
-..aboutme_heading :first-child{
-    align-self: auto;
+#surf-report {
+    background-image: url(.....);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 100%;
 }
 
-    
-}
-.aboutme_heading, .work_heading, .contactme_header {
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-    border-right:5px solid yellow;
-    margin-top: 80px;
-    margin-right: 15px;
-    width: 25%;
-    padding-top: 50px;
-    padding-left: 15px;
-    height: 150px;
-    font-size: 36px;
-    font-family:  Copperplate, Papyrus, fantasy; 
-
-}
-@media only screen and (max-width:400px){
-    .aboutme_heading {
-        margin-top: 0;
+#calculator{
+    background-image: url(.....);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 100%; 
     }
+
+#ledwall {
+    background-image: url(.....);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+}
+#pastelpuzzles{
+    background-image: url(.....);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+}
+#run-buddy{
+    background-image: url(.....);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+}
+.aboutmesubheading{
+   display:flex;
+   justify-content: left;
+   padding-right: 115px;
+}  
+
+.aboutme{
+       display:flex;
+       align-items:flex-start;
+       justify-content:space-between;
+       margin-top: 250px;
 }
 
+.worksubheading{
+    display:flex;
+    justify-content: left;
+    padding-right: 115px;
+}
 
+.work{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    margin-top: 250px;
+}
 
