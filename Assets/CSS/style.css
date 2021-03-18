@@ -24,40 +24,19 @@ header {
     
 
 }
-@media only screen and (min-width:600px){
-    .logo,
+@media only screen and (min-width:400px){
+    .logo, .midbacksplash,
     .nav-list{
-        height: 85px;
+        height: 70px;
         width: 1000px;
     }
-.midbacksplash img {
-    background-image: image();
+
+    .midbacksplash{
    border: 5px solid coral;
-   position: relative;
+   display: flex;
     height: 170px;
     width: 1700px;
-}
-
-#backsplashoverlay {
-    position:absolute;
-    top: 80px;
-    left: 850px;
-    height: 40px;
-    width: 25%;
-    background-color: #31373d; 
-    color: white;
-    font-family: Copperplate, Papyrus, fantasy;
-    font-size: 18pt;
-    text-align: center;
-    border-radius: 25px;
-}
-
-
-#backsplashoverlay {
-    display:flex;
-    flex-flow: row wrap;
-    border:5px solid orchid;
-}
+    }
 
 .logo{
     display:flex;
@@ -66,7 +45,7 @@ header {
 
 .logo img{
     width: 75%;
-    height: auto;
+    height: 70px;
    
 }
 
@@ -105,6 +84,39 @@ a{
     display:flex;
     align-items: inherit;
     position: relative;
-    Border:5px solid red;
+    Border:5px solid red
+}
+.aboutme_heading {
+    display: flex;
+    align-content: center;
+    float: left;
+    border-right:5px solid yellow;
+    margin-top: 80px;
+    margin-right: 15px;
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 15px;
+    height: 150px;
+    font-size: 36px;
+    font-family:  Copperplate, Papyrus, fantasy; 
 
 }
+@media only screen and (max-width:400px){
+    .aboutme_heading {
+        margin-top: 0;
+    }
+
+.work {
+    display: flex;
+    align-content: center;
+    float: left;
+    border-right:5px solid yellow;
+    margin-top: 80px;
+    margin-right: 15px;
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 15px;
+    height: 150px;
+    font-size: 36px;
+    font-family:  Copperplate, Papyrus, fantasy; 
+    }
