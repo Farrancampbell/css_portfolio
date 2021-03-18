@@ -19,7 +19,6 @@ header {
 
 .logo,
 .nav-list {
-    border:1px solid hotpink;
     height: 100%;
     
 
@@ -33,7 +32,6 @@ header {
 }
 
 .midbacksplash{
-   border: 5px solid coral;
    background-image: url(./Images/Backgroundphoto.png);
    display: flex;
     height: 170px;
@@ -70,7 +68,6 @@ ul{
   
 li{
     padding: 0px 20px;
-    border: 1px solid rgb(12, 12, 12);
     color: #83a1b9;
     font-size: 24px;
 
@@ -90,26 +87,30 @@ a{
 }
 
 #calculator{
-    background-image: url(.....);
+    background-image: url(./Images/calculator.png);
     background-position: center;
     background-size:cover;
     height: 200px;
     width: 100%; 
+    margin-right: 15px;
+    color:white
     }
 
 #ledwall {
-    background-image: url(.....);
+    background-image: url(./Images/led_wall.png);
     background-position: center;
     background-size:cover;
     height: 200px;
     width: 100%;
+    margin: 15px;
 }
 #pastelpuzzles{
-    background-image: url(.....);
+    background-image: url(./Images/pastel.png);
     background-position: center;
     background-size:cover;
     height: 200px;
     width: 100%;
+    margin: 15px;
 }
 #run-buddy{
     background-image: url(.....);
