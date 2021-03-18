@@ -72,6 +72,7 @@ li{
     padding: 0px 20px;
     border: 1px solid rgb(12, 12, 12);
     color: #83a1b9;
+    font-size: 24px;
 
 }
 a{
@@ -80,9 +81,10 @@ a{
 }
 
 #surf-report {
-    background-image: url(.....);
+    background-image: url(./Images/Surfreport.png);
     background-position: center;
     background-size:cover;
+    margin-right: 15px;
     height: 200px;
     width: 100%;
 }
@@ -122,23 +124,41 @@ a{
    padding-right: 115px;
 }  
 
-.aboutme{
-       display:flex;
-       align-items:flex-start;
-       justify-content:space-between;
-       margin-top: 250px;
-}
-
 .worksubheading{
     display:flex;
     justify-content: left;
     padding-right: 115px;
 }
 
-.work{
+
+.contactme,.work, .aboutme{
     display:flex;
     align-items:flex-start;
+    flex-wrap: nowrap;
     justify-content:space-between;
-    margin-top: 250px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family:Copperplate, Papyrus, fantasy; 
+
+}
+@media only screen and (min-width:650px){
+    .contactme,.work, .aboutme{
+        align-items: center;
+
+    }
+}
+.contactmesubheading{
+    display:flex;
+    justify-content: left;
+    padding-right: 85px;
+}
+    
+.headshot{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+
 }
 
