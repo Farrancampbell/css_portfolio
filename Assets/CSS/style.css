@@ -31,7 +31,7 @@ header {
         width: 1000px;
     }
 
-    .midbacksplash{
+.midbacksplash{
    border: 5px solid coral;
    display: flex;
     height: 170px;
@@ -77,19 +77,16 @@ a{
     text-decoration: none;
 }
 
-.contactme{
-    color:black
+..aboutme_heading :first-child{
+    align-self: auto;
 }
-.aboutme{
-    display:flex;
-    align-items: inherit;
-    position: relative;
-    Border:5px solid red
+
+    
 }
-.aboutme_heading {
+.aboutme_heading, .work_heading, .contactme_header {
     display: flex;
-    align-content: center;
-    float: left;
+    align-items: flex-start;
+    position: relative;
     border-right:5px solid yellow;
     margin-top: 80px;
     margin-right: 15px;
@@ -105,18 +102,7 @@ a{
     .aboutme_heading {
         margin-top: 0;
     }
+}
 
-.work {
-    display: flex;
-    align-content: center;
-    float: left;
-    border-right:5px solid yellow;
-    margin-top: 80px;
-    margin-right: 15px;
-    width: 25%;
-    padding-top: 50px;
-    padding-left: 15px;
-    height: 150px;
-    font-size: 36px;
-    font-family:  Copperplate, Papyrus, fantasy; 
-    }
+
+
